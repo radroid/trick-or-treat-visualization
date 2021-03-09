@@ -137,3 +137,4 @@ dmypy.json
 venv/
 .vscode/
 .DS_Store
+Data/Raw/IMDB_basic_info.tsv
