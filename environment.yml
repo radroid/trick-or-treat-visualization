@@ -21,6 +21,7 @@ dependencies:
   - decorator=4.4.2=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - entrypoints=0.3=py38_0
+  - et_xmlfile=1.0.1=py_1001
   - expat=2.2.10=hb1e8313_2
   - freetype=2.10.4=ha233b18_0
   - gettext=0.19.8.1=hb0f4f8b_2
@@ -36,6 +37,7 @@ dependencies:
   - ipython=7.21.0=py38h01d92e1_0
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
   - ipywidgets=7.6.3=pyhd3eb1b0_1
+  - jdcal=1.4.1=py_0
   - jedi=0.17.0=py38_0
   - jinja2=2.11.3=pyhd3eb1b0_0
   - joblib=1.0.1=pyhd3eb1b0_0
@@ -81,6 +83,7 @@ dependencies:
   - numpy=1.19.2=py38h456fd55_0
   - numpy-base=1.19.2=py38hcfb5961_0
   - olefile=0.46=py_0
+  - openpyxl=3.0.6=pyhd3eb1b0_0
   - openssl=1.1.1j=h9ed2024_0
   - packaging=20.9=pyhd3eb1b0_0
   - pandas=1.2.3=py38hb2f4e1b_0
@@ -136,6 +139,7 @@ dependencies:
   - webencodings=0.5.1=py38_1
   - wheel=0.36.2=pyhd3eb1b0_0
   - widgetsnbextension=3.5.1=py38_0
+  - xlrd=2.0.1=pyhd3eb1b0_0
   - xz=5.2.5=h1de35cc_0
   - yaml=0.2.5=haf1e3a3_0
   - zeromq=4.3.3=hb1e8313_3
