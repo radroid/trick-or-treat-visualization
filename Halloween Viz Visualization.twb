@@ -418,7 +418,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Horror Movies Released'>
+    <window class='worksheet' name='Horror Movies Released'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -483,7 +483,7 @@
       </viewpoint>
       <simple-id uuid='{B957A753-08BA-4B64-B63E-38A7A6369FAC}' />
     </window>
-    <window class='worksheet' name='Candies Given by Year'>
+    <window class='worksheet' maximized='true' name='Candies Given by Year'>
       <cards>
         <edge name='left'>
           <strip size='160'>
