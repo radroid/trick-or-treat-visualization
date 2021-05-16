@@ -46,7 +46,7 @@ We will collect data from three sources
 #### 1. Jeffrey's Halloween Dataset
 The data was downloaded from the [dataplusscience website](https://www.dataplusscience.com/HalloweenData.html).
 
-![halloween-dataset-screenshot]()
+![halloween-dataset-screenshot](images/HalloweenDataImage.png)
 
 #### 2. IMDb Movies Dataset
 This dataset was downloaded from [Kaggle](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset).
