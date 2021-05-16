@@ -8,7 +8,7 @@
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/radroid/trick-or-treat-visualization?style=for-the-badge)](https://github.com/radroid/Hangman/pulls) 
 [![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/radroid/trick-or-treat-visualization?style=for-the-badge)](https://github.com/radroid/Hangman/pulls?q=is%3Apr+is%3Aclosed)
 
-![workflow]()
+![workflow](images/halloween-viz-workflow.png)
 Above is the expected workflow. The block highlighted in `orange` is the current position of the project.
 
 ## Project Overview
