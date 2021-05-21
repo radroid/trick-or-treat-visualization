@@ -52,7 +52,9 @@ The data was downloaded from the [dataplusscience website](https://www.datapluss
 This dataset was downloaded from [Kaggle](https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset).
 
 #### 3. Cincinnati Weather Dataset
-The weather data is taken from the [weather archives](https://www.weather.gov/iln/lcd_archive)
+The weather data is taken from two different locations:
+1. [Weather Archives](https://www.weather.gov/iln/lcd_archive)
+2. [Weather Underground](https://www.wunderground.com/history/daily/us/ky/hebron/KCVG/date/2020-10-31)
 
 ### Combining & Cleansing Data
 **Tableau Prep** will be used to carry out the combining and cleansing of the dataset.
