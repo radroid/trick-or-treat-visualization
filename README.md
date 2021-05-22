@@ -8,7 +8,7 @@
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/radroid/trick-or-treat-visualization?style=for-the-badge)](https://github.com/radroid/Hangman/pulls) 
 [![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/radroid/trick-or-treat-visualization?style=for-the-badge)](https://github.com/radroid/Hangman/pulls?q=is%3Apr+is%3Aclosed)
 
-![workflow](images/halloween-viz-workflow.png)
+![workflow](images/halloween-viz-workflow-eda.png)
 Above is the expected workflow. The block highlighted in `orange` is the current position of the project.
 
 ## Project Overview
@@ -67,7 +67,7 @@ The weather data is taken from two different locations:
 ### Combining & Cleansing Data
 **Tableau Prep** will be used to carry out the combining and cleansing of the dataset.
 
-![Tableau-Prep-Screenshot]()
+![Tableau-Prep-Screenshot](images/tableau-prep-screenshot)
 
 ### Exploratory Data Analysis (EDA)
 **Python** (Jupyter Notebook) will be used to carry to the EDA. This will involve finding trends in the data through visualizations.
