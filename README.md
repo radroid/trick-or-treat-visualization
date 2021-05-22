@@ -41,7 +41,7 @@ The data is collected between 6:30 and 8:15, every half an hour.
 In this section, we will give a brief description of each process shown in the workflow.
 
 ### Data Collection
-We will collect data from three sources
+Three data sources are used in this project.
 
 #### 1. Jeffrey's Halloween Dataset
 The data was downloaded from the [dataplusscience website](https://www.dataplusscience.com/HalloweenData.html).
@@ -60,14 +60,22 @@ The weather data is taken from two different locations:
 
 [![weather-archive-screenshot](images/weather-archive-screenshot.png)](https://www.weather.gov/iln/lcd_archive)
 
+Data from this source is in the from of PDF documents containing monthly weather data. PDF documents containing October data from year 2008 to 2020 are downloaded. All these files can be found in the [raw data directory](Data/Raw/Weather/monthly). The `Weather_archive_summary.xlsx` file in [weather directory](Data/Raw/Weather) contains weather data for October 31 of each year from 2008 to 2020 extracted from the PDF documents.
+
 2. [Weather Underground](https://www.wunderground.com/history/daily/us/ky/hebron/KCVG/date/2020-10-31)
 
 [![weather-archive-screenshot](images/weather-under-screenshot.png)](https://www.wunderground.com/history/daily/us/ky/hebron/KCVG/date/2020-10-31)
 
-### Combining & Cleansing Data
-**Tableau Prep** will be used to carry out the combining and cleansing of the dataset.
+This sources contains weather data measured at different times in a given day. Data for the years 2008, 2013 and 2018 is missing. The data was copied from the webpage and pasted into an excel document. A different sheet is created for each year. The data can be found in the [daily weather directory](Data/Raw/Weather/daily).
 
-![Tableau-Prep-Screenshot](images/tableau-prep-screenshot)
+This is an additional data source to be used to develop a more complex machine learning model. The dashboard will not contain data extracted from this data source. 
+
+### Combining & Cleansing Data
+**Tableau Prep** is used to carry out the combining and cleansing of the datasets. Following a picture of the workflow created in Tableau Prep.
+
+![Tableau-Prep-Screenshot](images/tableau-prep-screenshot.png)
+
+The file can be found in the [data directory](Data).
 
 ### Exploratory Data Analysis (EDA)
 **Python** (Jupyter Notebook) will be used to carry to the EDA. This will involve finding trends in the data through visualizations.
